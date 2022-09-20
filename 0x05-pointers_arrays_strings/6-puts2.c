@@ -2,12 +2,15 @@
 #include "2-strlen.c"
 /**
  * puts2 - puts string twice
+ *
+ * @str: string to put twice
  */
+
 void puts2(char *str)
 { 
-	int 1;
+	int i;
 
-	for (1 = 0; i <_stren(strs); i++)
+	for (i = 0; i < _stren(strs); i++)
 	{
 		if (i % 2 == 0)
 		{
@@ -16,7 +19,7 @@ void puts2(char *str)
 				_Putchar(str[i]);
 			}
 		}
-		_putchar('/n');
+		_putchar('\n');
 	}
 					
 
